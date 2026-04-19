@@ -1,0 +1,54 @@
+# Core LangChain ecosystem
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+
+# Google Gemini (IMPORTANT)
+langchain-google-genai>=1.0.0
+google-generativeai>=0.7.0
+
+# LCEL / Runnables / Agents
+langchainhub>=0.1.15
+
+# Tooling (YouTube + data handling)
+youtube-transcript-api>=0.6.2
+pandas>=2.2.0
+tavily-python >= 0.3.0
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+lxml>=5.0.0
+
+# HTTP + async support
+httpx>=0.27.0
+requests>=2.31.0
+
+# Async support (important for agents/tools)
+aiohttp>=3.9.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Data handling (optional but useful in pipelines)
+pandas>=2.0.0
+
+# UI (optional but useful for testing agents)
+streamlit>=1.35.0
+
+# Output formatting / logs
+# rich>=13.7.0
+
+# JSON + parsing
+pydantic>=2.7.0
+
+# Optional (if you plan embeddings / RAG later)
+# faiss-cpu>=1.8.0
+tiktoken>=0.6.0
+
+# Retry + robustness
+tenacity>=8.2.0
+
+# Optional (for advanced parsing / HTML cleanup)
+html5lib>=1.1
+
+# JSON handling improvements
+orjson>=3.9.0
